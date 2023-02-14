@@ -5,6 +5,7 @@ public class Circle extends Shapes{
     @Override
     public void findArea() {
         double area = PI *(radius*radius);
+        System.out.println("Area of circle is: "+area);
     }
 
     public double getPI() {

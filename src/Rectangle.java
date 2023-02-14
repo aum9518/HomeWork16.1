@@ -5,7 +5,7 @@ public class Rectangle extends Shapes{
     @Override
     public void findArea() {
         int area = length*width;
-        System.out.println("Rectangle area is: "+area);
+        System.out.println("Area of rectangle is: "+area);
     }
 
     public int getLength() {

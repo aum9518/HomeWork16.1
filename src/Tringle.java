@@ -12,8 +12,8 @@ public class Tringle extends Shapes{
 
     @Override
     public void findArea() {
-        int area = 1/2*base*high;
-        System.out.println("Tringle area is: "+area);
+        int area = base*high/2;
+        System.out.println("Area of tringle is: "+area);
     }
 
     public int getHigh() {
